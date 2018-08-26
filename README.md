@@ -10,6 +10,6 @@ $ grep pass /var/log/mysqld.log
 # ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';
 # CREATE DATABASE test_db CHARACTER SET utf8 COLLATE utf8_general_ci;
 # CREATE USER 'user_db'@'%' IDENTIFIED BY 'password';
-# GRANT ALL ON user_db.* TO 'test_db'@'%';
+# GRANT ALL PRIVILEGES ON *.* TO 'user_db'@'%' WITH GRANT OPTION;
 # FLUSH PRIVILEGES;
 ```
