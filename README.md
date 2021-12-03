@@ -13,4 +13,5 @@ $ grep pass /var/log/mysqld.log
 # CREATE USER 'user_db'@'%' IDENTIFIED BY 'password';
 # GRANT ALL PRIVILEGES ON *.* TO 'user_db'@'%' WITH GRANT OPTION;
 # FLUSH PRIVILEGES;
+# SHOW GRANTS FOR user_db;
 ```
